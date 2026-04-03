@@ -26,7 +26,7 @@ La IA analiza, sugiere y clasifica el riesgo, pero la decisión final de **aprob
 ## 🛠️ Tecnologías y herramientas
 
 - **n8n** → Automatización del flujo  
-- **Google Gemini 2.5 Flash** → Modelo de lenguaje (LLM)  
+- **Google Gemini** → Modelo de lenguaje (LLM) 
 - **SerpApi** → Consulta de normativa actualizada en la web  
 - **Base de datos vectorial** → Almacenamiento y consulta de documentos (RAG)  
 - **Gmail API** → Envío de informes y validación humana  
@@ -166,10 +166,8 @@ Una vez importado el workflow, será necesario configurar manualmente:
 
 - Credenciales de Google (Gmail)  
 - API Key de Gemini  
-- API Key de SerpApi  
-
-⚠️ Estas credenciales no se incluyen en el proyecto por motivos de seguridad.
-
+- API Key de SerpApi
+  
 ---
 
 ### 🔹 Paso 4: Ajustes finales
@@ -200,8 +198,19 @@ Para que el workflow funcione correctamente, es necesario configurar las siguien
 ### 🤖 Modelo de IA (Gemini)
 
 - Crear credencial de Google Gemini (API Key)
-- Seleccionar el modelo en el nodo correspondiente:
-  - **Gemini 2.5 Flash**
+- Configurar el nodo **Google Gemini Chat Model**
+- Seleccionar el modelo disponible en n8n 
+
+⚠️ Nota:
+
+El modelo utilizado en este proyecto fue **Gemini 2.5 Flash**,  
+pero la versión disponible puede variar según:
+
+- La versión de n8n  
+- La API configurada  
+- La disponibilidad del servicio de Google  
+
+Por este motivo, el modelo exacto puede no reflejarse en el JSON exportado.
 
 ---
 
@@ -359,4 +368,20 @@ Este proyecto es una herramienta de asistencia y experimentación.
 
 ## 📷 Capturas del flujo
 
-<img width="809" height="430" alt="flujo analista de terminos y condiciones" src="https://github.com/user-attachments/assets/41318f48-d926-49b7-9994-8678581b6377" />
+### 🔄 Flujo completo en n8n
+![Flujo n8n](images/flujo.png)
+
+---
+
+### 📧 Recepción del email
+![Email recibido](images/mail.png)
+
+---
+
+### 📊 Informe generado
+![Informe](images/informe.png)
+
+---
+
+### ✅ Decisión humana (Human in the Loop)
+![Aprobación](images/hitl.png)

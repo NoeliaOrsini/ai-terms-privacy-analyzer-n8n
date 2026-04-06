@@ -133,7 +133,7 @@ Para ejecutar este workflow en n8n es necesario configurar correctamente el ento
 
 🔹 Modelo utilizado en este proyecto:
 
-- **Google Gemini 1.5 Flash**  
+- **Google Gemini 2.5 Flash**  
 
 ⚠️ Importante:  
 
@@ -172,7 +172,7 @@ Una vez importado el workflow, será necesario configurar manualmente:
 
 ### 🔹 Paso 4: Ajustes finales
 
-- Configurar el modelo en el nodo LLM (ej: Gemini 1.5 Flash)  
+- Configurar el modelo en el nodo LLM (ej: Gemini 2.5 Flash)  
 - Definir el correo en el campo **To** del nodo Gmail  
 - Verificar que todos los nodos estén correctamente conectados  
 
@@ -203,7 +203,7 @@ Para que el workflow funcione correctamente, es necesario configurar las siguien
 
 ⚠️ Nota:
 
-El modelo utilizado en este proyecto fue **Gemini 1.5 Flash**,  
+El modelo utilizado en este proyecto fue **Gemini 2.5 Flash**,  
 pero la versión disponible puede variar según:
 
 - La versión de n8n  

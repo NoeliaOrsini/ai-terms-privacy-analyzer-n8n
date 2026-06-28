@@ -1,8 +1,8 @@
-# 🤖 Agente en n8n para análisis de Términos y Condiciones y Políticas de Privacidad con IA + Human in the Loop
+# 🤖 Agente "LETRA CHICA" en n8n para análisis de Términos y Condiciones y Políticas de Privacidad con IA + Human in the Loop
 
 ## 🧠 Descripción
 
-Este proyecto nace de una necesidad cotidiana: **casi nadie lee los términos y condiciones o las políticas de privacidad**.  
+Este proyecto llamado "LETRA CHICA" nace de una necesidad cotidiana: **casi nadie lee los términos y condiciones o las políticas de privacidad**.  
 
 Son extensos, complejos y muchas veces esconden cláusulas abusivas.  
 

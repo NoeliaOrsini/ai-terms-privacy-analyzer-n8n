@@ -385,3 +385,11 @@ Este proyecto es una herramienta de asistencia y experimentación.
 
 ### ✅ Decisión humana (Human in the Loop)
 ![Aprobación](images/hitl.png)
+
+## Propiedad Intelectual y Derechos de Autor
+
+© 2026 Noelia Orsini. Todos los derechos reservados.
+
+Este repositorio contiene desarrollo intelectual propio y exclusivo, diseñado como portfolio profesional. 
+
+Queda estrictamente PROHIBIDA la reproducción, copia, bifurcación (forking) con fines de distribución, modificación o reutilización de este código, de su estructura lógica o de sus flujos de automatización sin la autorización expresa y por escrito de la autora.
